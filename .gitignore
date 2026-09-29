@@ -1,0 +1,64 @@
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.backup
+.env.production
+
+# PHP / PHPUnit
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+_ide_helper.php
+
+# AI / coding assistants
+/.agents/
+/.artifacts/
+/.hallmark/
+/.codex
+/.cursor/
+
+AGENTS.md
+CLAUDE.md
+DESIGN.md
+
+# IDE / editor
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# Temporary / local helper
+/.tmp/
+/tmp/
+serve-fast.cmd
+
+# Local config
+.npmrc
+/auth.json
+
+# Dependencies
+/node_modules/
+/vendor/
+
+# Laravel / Vite generated
+/public/build/
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+
+/storage/*.key
+/storage/pail
+
+# Project documents / helper files not needed to run website
+/docs/
+tokens.css
+
+# Remove this only if the website does NOT need it to initialize location data
+/import_vn_locations_full_fixed_v2.php
+
+# Homestead
+Homestead.json
+Homestead.yaml

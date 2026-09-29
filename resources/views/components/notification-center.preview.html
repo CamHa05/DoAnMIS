@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification center — 8 states</title>
+    <link rel="stylesheet" href="../../css/app.css">
+</head>
+<body>
+    <main class="notifications-page">
+        <h1>Notification center — 8 states</h1>
+        <div style="display:grid;gap:16px;justify-items:start;margin-top:24px">
+            <button class="notification-center__trigger notification-bell" type="button">default</button>
+            <button class="notification-center__trigger notification-bell is-hover" type="button">hover</button>
+            <button class="notification-center__trigger notification-bell is-focus" type="button">focus</button>
+            <button class="notification-center__trigger notification-bell is-active-state" type="button">active</button>
+            <button class="notification-center__trigger notification-bell" type="button" disabled>disabled</button>
+            <button class="notification-center__trigger notification-bell" type="button" data-state="loading" aria-busy="true">loading</button>
+            <button class="notification-center__trigger notification-bell" type="button" data-state="error">error</button>
+            <button class="notification-center__trigger notification-bell" type="button" data-state="success">success</button>
+        </div>
+    </main>
+</body>
+</html>
